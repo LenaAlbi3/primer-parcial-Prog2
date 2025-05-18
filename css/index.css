@@ -40,7 +40,7 @@ header{
     justify-content: space-between;
     margin: 0px 20px 0px 20px;
     background-color: var(--p-color);
-    --icon-toggle: url("/img/menu-svgrepo-com.svg");
+    --icon-toggle: url("../img/menu-svgrepo-com.svg");
     --transform-menu: translate(-100%);
 }
 
@@ -60,7 +60,7 @@ ul{
 }
 
 .nav-container:has(.nav-input:checked){
-    --icon-toggle: url("/img/multiplication-svgrepo-com.svg");
+    --icon-toggle: url("../img/multiplication-svgrepo-com.svg");
     --transform-menu: translate(0);
 }
 
