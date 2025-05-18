@@ -1,0 +1,87 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.banner a{
+    position: absolute;
+    background-color: var(--p-color);
+    padding: 15px;
+}
+
+.servicios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card{
+    margin: 10px;
+    width: 90vw;
+    height: 22vh;
+    background-color: var(--bg2-color);
+    border-radius: 10px;
+    display: flex;
+}
+
+.card .texto{
+    margin: 0px 10px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.card img{
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+@media (min-width: 1440px){
+    .btn-primary{
+        font-size: 40px;
+    }
+    .servicios{
+        flex-direction: column;
+    }
+    .container-cards{
+        flex-direction: row;
+    }
+   .card{
+        flex-direction: column;
+        margin: 10px;
+        width: 30vw;
+        height: 60vh;
+        background-color: var(--bg2-color);
+        border-radius: 10px;
+        display: flex;
+    }
+    .card .texto{
+        margin: 0px 10px;
+    }
+    .card h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .card img{
+        width: 30vw;
+        height: 30vh;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
